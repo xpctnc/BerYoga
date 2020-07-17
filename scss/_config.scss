@@ -1,0 +1,31 @@
+//colors 
+
+$primary: #ff6a6d;
+$secondary: #8ec7fb;
+
+
+//typography
+
+$lato: 'Lato', sans-serif;
+
+
+
+//mixins 
+
+@mixin flexCenterHorizontally {
+	display: flex;
+	justify-content: center;
+}
+
+@mixin flexColumn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@mixin flexCenter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
